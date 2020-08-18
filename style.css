@@ -1,0 +1,140 @@
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
+ 
+}
+
+.navbar li {
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+.navbar-brand {
+  font-family: 'raleway';
+  font-weight: bolder;
+}
+
+.hero-img {
+    background-image: url(images/markus-winkler-aId-xYRTlEc-unsplash.jpg);
+    width: 100% !important;
+    min-height: 90vh;
+    display: table;
+    position: relative;
+    background-position:center; 
+    background-attachment:scroll; 
+    -o-background-size:cover; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    background-size:cover; 
+    background-repeat:no-repeat; 
+}
+
+.landing-text { 
+	text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+} 
+
+.landing-text h3 {
+    color: white;
+    font-weight: bolder;
+    padding: 40px;
+    z-index: 2;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);  
+}
+
+.padding{
+    padding:28px;
+}
+
+.featured{
+    color: maroon;
+    margin-top: 40px;
+    font-family: raleway;   
+}
+
+.works img {
+   width: 100%; 
+}
+
+hr {
+   margin: 20px;
+}
+
+
+.work-img {
+    position: relative;
+}
+
+.work h6{
+    margin-top: 9px;
+    font-style: italic;
+    width: 100%;
+    font-size: 14px;
+}
+
+.featured-logo {
+    background-color: white;
+    padding: 4px;
+    position: absolute;
+    bottom: 95px;
+    left: 19px;
+}
+
+
+.prints span{
+    color: maroon;
+}
+
+.bio img {
+    width: 100%; 
+ }
+
+.emily {
+    margin-bottom: 30px;
+    color: black;
+}
+.contact p {
+    font-style: italic;
+}
+
+
+@media(max-width: 800px){
+    .work h6{
+        margin-bottom: 50px;
+       
+    }
+
+    .featured-logo {
+        background-color: white;
+        padding: 4px !important;
+        position: absolute;
+        bottom: 133px;
+        left: 19px;
+    }
+
+    .emily {
+        margin-bottom: 30px;
+        color: black;
+    }
+   
+}
+
+@media(width: 1024px){
+    .work h6{
+        margin-bottom: 50px;
+       
+    }
+
+    .featured-logo {
+        background-color: white;
+        padding: 4px !important;
+        position: absolute;
+        bottom: 170px;
+        left: 19px;
+    }
+}
