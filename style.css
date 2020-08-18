@@ -1,7 +1,7 @@
 html,
 body {
-  position: relative;
-  overflow-x: hidden;
+  position: relative; 
+   overflow-x: hidden;
  
 }
 
@@ -16,9 +16,9 @@ body {
 }
 
 .hero-img {
-    background-image: url(images/markus-winkler-aId-xYRTlEc-unsplash.jpg);
+    background-image: url(images/vanilla-bear-films-JEwNQerg3Hs-unsplash.jpg);
     width: 100% !important;
-    min-height: 90vh;
+    height: 90vh;
     display: table;
     position: relative;
     background-position:center; 
@@ -81,7 +81,7 @@ hr {
     background-color: white;
     padding: 4px;
     position: absolute;
-    bottom: 95px;
+    bottom: 96px;
     left: 19px;
 }
 
@@ -98,6 +98,7 @@ hr {
     margin-bottom: 30px;
     color: black;
 }
+
 .contact p {
     font-style: italic;
 }
