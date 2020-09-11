@@ -6,7 +6,7 @@ body {
 
 .navbar li {
   font-size: 30px;
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
 .navbar-brand {
@@ -57,27 +57,25 @@ body {
 }
 
 .works img {
-  /* width: 280px;
-  height: 200px;
-  */
   width: 100%;
-  margin-bottom: 20px;
+  height: 200px;
+  margin-bottom: 10px;
 } 
-
 
 hr {
   margin: 20px;
 }
 
-.work-img {
-  position: relative;
+
+.card-body{
+  height: 13rem;
 }
 
-.work h5 {
-  margin-top: 20px;
+.works h5 {
   font-style: italic;
   width: 100%;
-  font-size: 18px;
+  font-size: 17px;
+
 }
 
 .featured-logo {
@@ -121,19 +119,10 @@ h1 {
 }
 
 @media (max-width: 800px) {
-  .work h5 {
-    margin-bottom: 50px;
-    margin-top: 20px;
+  .card {
+    height: 32rem;
   }
-
-  /* .featured-logo {
-    background-color: white;
-    padding: 4px !important;
-    position: absolute;
-    bottom: 156px;
-    left: 19px;
-  }
-   */
+  
   .featured-logo {
     background-color: white;
     padding: 4px !important;
@@ -143,27 +132,30 @@ h1 {
     
   }
   
-
   .emily {
     margin-bottom: 30px;
     color: black;
   }
 
   .works img {
+    width: 100% !important;
+    height: 100%;
+    margin-bottom: 10px;
+  } 
+
+  .card-body{
+    height: 13rem;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .works h5 {
+    font-style: italic;
     width: 100%;
+    font-size: 22px;
+  
   }
 }
 
-@media (width: 1024px) {
-  .work h6 {
-    margin-bottom: 50px;
-  }
-
-  .featured-logo {
-    background-color: white;
-    padding: 4px !important;
-    position: absolute;
-    bottom: 170px;
-    left: 19px;
-  }
-}
