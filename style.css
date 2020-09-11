@@ -119,9 +119,7 @@ h1 {
 }
 
 @media (max-width: 800px) {
-  .card {
-    height: 32rem;
-  }
+  
   
   .featured-logo {
     background-color: white;
@@ -144,7 +142,7 @@ h1 {
   } 
 
   .card-body{
-    height: 10rem;
+    height: 14rem;
   }
 
   .card {
